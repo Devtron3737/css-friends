@@ -1,1 +1,41 @@
 /* PHASE 3: Layout */
+.content {
+  min-height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.content:before {
+  display: block;
+  content: "";
+  width: 1px;
+  background: #ccc;
+  margin-left: 260px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.content-sidebar {
+  float: left;
+  background: white;
+  display: inherit;
+  width: 220px;
+  padding: 20px;
+  min-height: inherit;
+  position: relative;
+}
+
+.content-main {
+  float: left;
+  display: inherit;
+  background: white;
+  padding: 20px;
+  width: 700px;
+  min-height: inherit;
+}

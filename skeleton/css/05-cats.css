@@ -1,1 +1,41 @@
 /* PHASE 5: Cats */
+
+.content-header {
+  /*content: "";*/
+  background: url("../../shared/img/fellowship.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  /*z-index: 2;*/
+}
+
+.content-header h1 {
+  font-size: 41px;
+  color: white;
+  padding: 10px;
+  width: 980px;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  text-shadow: 3px 3px black;
+  line-height: 1;
+}
+
+.content-header-add-friend {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 10%;
+  border: 1px solid black;
+  background: white;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.content-header-add-friend:hover{
+  background: gray;
+  color: white;
+}

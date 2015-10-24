@@ -1,1 +1,56 @@
 /* PHASE 2: Notifications */
+.badge {
+  border-radius: 50%;
+  text: center white;
+  background: black;
+  display: inline;
+  margin-left: 3px;
+  padding: 1px 6px;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.header-list > li {
+  position: relative;
+}
+
+.header-list > li:hover {
+  background: black;
+}
+
+li:hover .badge {
+  background: red;
+}
+
+li .nav-dropdown {
+  display: none;
+  color: black;
+  font-weight: 100;
+  background: white;
+  width: 170px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  position: absolute;
+  top: 39px;
+  cursor: pointer;
+}
+
+.nav-dropdown li {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.nav-dropdown li:hover {
+  background: #C8C8C8;
+}
+
+li:hover .nav-dropdown {
+  display: block;
+}

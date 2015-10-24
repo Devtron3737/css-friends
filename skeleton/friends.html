@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
-  <title>App Academy Friends</title>
+  <title>SwapTooth Friends</title>
 
   <link rel="stylesheet" href="css/00-reset.css" type="text/css">
   <link rel="stylesheet" href="css/01-header.css" type="text/css">
@@ -20,7 +21,87 @@
 </head>
 <body>
 
-  <!-- YOUR HTML HERE -->
+  <header class="header">
+    <nav class="header-nav group">
+
+      <h1 class="header-logo"><a href="#">SwapTooth Friends</a></h1>
+
+      <ul class="header-list group">
+        <li><a href="#">Notifications<span class="badge">3</span></a>
+              <ul class="nav-dropdown">
+                <li>Soloman rejected your friend request</li>
+                <li>Gandalf sent you a message</li>
+                <li>Gollumn wants to be friends</li>
+              </ul>
+        </li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      <ul>
+
+    </nav>
+  </header>
+
+  <main class="content group">
+    <header class="content-header">
+      <h1>Frodo Baggins</h1>
+      <input type="button"
+             class="content-header-add-friend"
+             value="Add Friend">
+    </header>
+
+    <section class="content-sidebar">
+
+      <a href="#" class="profile-pic">
+        <img src="../shared/img/frodo.jpg" alt="">
+        <p class="online">ONLINE</p>
+      </a>
+
+      <div class="profile-info">
+        <h3>Frodo</h3>
+
+        <p>Anyone know which way to Mordor? Trying to get there. Will
+           turn invisible for food/a lift. And a lift for homie Same too,
+           if thats alright..
+        </p>
+      </div>
+
+      <div class="profile-nav">
+        <ul>
+          <li><a href="#" class="icon-wall">Wall</a></li>
+          <li><a href="#" class="icon-about">About</a></li>
+          <li><a href="#" class="icon-friend">Friends</a></li>
+          <li><a href="#" class="icon-photo">Photos</a></li>
+        <ul>
+      </div>
+
+      <div class="profile-friends">
+        <ul>
+          <li><a class="thumb" title="Galndalf" href="#"><img src="../shared/img/gandalf.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Pippin" href="#"><img src="../shared/img/pippin.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Legolas" href="#"><img src="../shared/img/legolas.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Aragorn" href="#"><img src="../shared/img/aragorn.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Gimli" href="#"><img src="../shared/img/gimli.png" alt=""></a></li>
+          <li><a class="thumb" title="Elf Queen" href="#"><img src="../shared/img/elf_queen.png" alt=""></a></li>
+          <li><a class="thumb" title="Sam" href="#"><img src="../shared/img/sam.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Boromir" href="#"><img src="../shared/img/boromir.jpg" alt=""></a></li>
+          <li><a class="thumb" title="Bilbo" href="#"><img src="../shared/img/bilbo.jpg" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-main">
+    </section>
+  </main>
+
+  <footer class="footer group">
+    <h2 class="footer-copyright">2014 SwapTooth. All right reserved.</h2>
+    <ul class="footer-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+  </footer>
 
   <script src="../shared/js/jquery.js"></script>
   <script>
